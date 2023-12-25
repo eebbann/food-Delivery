@@ -1,0 +1,15 @@
+.input_main{
+	display: flex;
+	gap: 5px;
+	color: rgb(212, 120, 7);
+	text-transform: capitalize;
+
+}
+.label{
+	letter-spacing: 1px;
+}
+
+.input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+	
+}

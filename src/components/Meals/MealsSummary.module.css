@@ -1,0 +1,48 @@
+.card_holder{
+	margin: -8px 0;
+	padding: 40px ;
+  background-color: rgb(255, 149, 0);
+	z-index: 900;
+}
+
+.pole{
+	padding:0 10px;
+	color:gray;
+	
+}
+.block{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin:0 25px;
+	max-width: 1390px;
+	flex-wrap: wrap;
+
+}
+.head,.detail{
+ padding: 0 10px;
+
+}
+.detail{
+	color: rgb(89, 88, 88);
+}
+
+.head{
+	margin: 10px 0 0 0;
+	display: flex;
+	justify-content: space-between;
+	gap:40px
+}
+.orange{
+	color: rgb(255, 149, 0);
+}
+.fix{
+	position:absolute;
+ width: fit-content;
+}
+.bttn{
+	margin-top:10px;
+	padding: 10px;
+	font-size: 14px;
+	background-color: rgb(41, 43, 43) !important;
+}

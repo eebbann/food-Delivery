@@ -1,0 +1,88 @@
+.header {
+	background-color: rgb(17, 17, 17);
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 3em;
+	position: fixed;
+}
+
+.main {
+	position: relative;
+	overflow: hidden;
+	padding-top: 4rem;
+	width: 100%;
+}
+
+.img {
+	max-width: 100%;
+	background-size: contain;
+}
+
+.log {
+	display: flex;
+	gap: 9px;
+	font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.discount {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: initial;
+	width: 500px;
+	height: 300px;
+	top: 13.9em;
+	font-family: 'Bubblegum Sans', sans-serif;
+	left: 8.4rem; 
+	letter-spacing: 3px; 
+}
+.discount::after{
+	content: url("../../assets/images/shape-02.png");
+	right:4.5em;
+	top: 10px;
+	position:absolute;
+}
+.discount::before{
+	content: url("../../assets/images/shape-01.png");
+	margin-right:0px;
+}
+.or {
+	color: #f28f1d;
+	font-size: 3.0rem;
+	margin-top:-6rem;
+	padding:0 1.6em;
+	line-height: 9.5rem;
+}
+
+.h4 {
+	color: #dddbdb;
+	font-size: 3.0rem;
+	padding:0 1.6em;
+	margin-top:-6rem;
+	line-height: 9.5rem;
+
+
+}
+.btn{
+	margin:0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 1px 10px;
+}
+.badge{
+	border-radius: 50%;
+	background-color: #f28f1d;
+	padding: 2px 5px;
+	font-size:12px;
+	font-weight: 600;
+}
+.cart{
+	font-size: 14px;
+	padding: 0 10px;
+	font-weight: 800;
+}

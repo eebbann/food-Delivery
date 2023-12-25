@@ -1,0 +1,17 @@
+.cards{
+	background-color: rgb(232, 236, 240);
+	margin: 10px 5px;
+	color:black;
+	padding: auto;
+	display:flex;
+	 
+	flex-shrink: px;
+	flex-wrap: wrap;
+	width: 19rem;
+	flex-direction: column;
+	gap:10px;
+	padding:5px;
+	border-radius: 8px;
+	z-index: 9000;
+	font-family: 'Bubblegum sans', sans-serif;
+}
