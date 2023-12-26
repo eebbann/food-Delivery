@@ -2,15 +2,18 @@ import React from 'react'
 import { CartIcon} from '../Cart/CartIcon';
 import styles from "./Header.module.css";
 
-export const HeaderCart = () => {
+export const HeaderCart = (props ) => {
 	return (
-		<button className={styles.btn}>
+		<>
+			<button onClick={props.onClick} className={styles.btn} >
 		 <span>
-     <CartICon/>
+     <CartIcon/>
 		 </span>
-		 <span className={styles.cart}> Your Cart</span>
+		 <span className={styles.cart}  >Your Cart</span>
 		 <span className={styles.badge}>3</span>
 		</button>
+		</>
+		
 	)
 }
 

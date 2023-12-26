@@ -10,8 +10,8 @@ const MealForm = () => {
 			type:'number',
 			min:"1",
 			max:"10",
-			step:"1",
-      defaultValue: "1"
+			step:"2",
+      defaultValue: "0"
 		}}/>
 		<button className={styles.bttn}>Add</button>
 		</form>
